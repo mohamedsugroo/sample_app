@@ -1,0 +1,34 @@
+<%= @video.media.url(:mp4_360hd)%>
+
+<p>
+  <strong>Title:</strong>
+  <%= @video.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @video.description %>
+</p>
+
+<p>
+  <strong>Country status:</strong>
+  <%= @video.country_status %>
+</p>
+
+<p>
+  <strong>Country rest:</strong>
+  <%= @video.country_rest %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @video.user_id %>
+</p>
+
+<p>
+  <strong>Duration:</strong>
+  <%= @video.duration %>
+</p>
+
+<%= link_to 'Edit', edit_video_path(@video) %> |
+<%= link_to 'Back', videos_path %>

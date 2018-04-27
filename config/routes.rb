@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  resources :posts
+  resources :videos
 	root 'home#index'
 end

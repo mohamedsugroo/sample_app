@@ -19,6 +19,11 @@ gem 'paperclip-av-transcoder'
 gem 'impressionist'
 gem 'trix'
 
+gem 'aws-sdk', '~> 3'
+gem 'aws-sdk-s3', '~> 1'
+gem 'aws-sdk-ec2', '~> 1'
+
+
 gem 'devise'
 gem 'omniauth-facebook'
 gem 'omniauth-twitter'

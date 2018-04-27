@@ -7,17 +7,6 @@ Rails.application.configure do
   config.cache_classes = false
 
 
-  config.paperclip_defaults = {
-    storage: :s3,
-    s3_region: 'eu-west-2',
-    s3_credentials: {
-      # s3_host_name:  ukhive.s3-website.eu-west-2.amazonaws.com,
-      bucket: 'ukhive',
-      access_key_id: 'AKIAIPCWG6PQRQ7GGXSQ',
-      secret_access_key: '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'
-      }
-    }
-
 
   # Do not eager load code on boot.
   config.eager_load = false
